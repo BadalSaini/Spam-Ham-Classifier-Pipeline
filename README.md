@@ -1,23 +1,23 @@
-# Spam-Ham Classifier Web App 📧🚫
+# Spam-Ham Classifier Web App
 
 A production-ready Machine Learning web application that classifies messages as **Spam** or **Ham** (Legitimate) using Natural Language Processing (NLP) and Support Vector Machines.
 
-**Live Demo:** `[Insert your Heroku Link Here]`
+**Live Demo:** `https://spam-ham-classifier-pipeline.streamlit.app/`
 
-## 🚀 Features
+## Features
 * **Machine Learning Pipeline:** Integrated `TfidfVectorizer` and `Support Vector Classifier (SVC)` into a single Scikit-Learn Pipeline for consistent data transformation.
 * **Real-time Inference:** Users can input custom text via a web interface and receive instant classification.
 * **Production Deployment:** Fully hosted on **Heroku** using a Flask/Streamlit backend.
 * **Clean Code:** Follows modular programming principles for easy maintenance and scalability.
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Language:** Python
 * **ML Libraries:** Scikit-Learn, NLTK, Pandas, NumPy
 * **Deployment:** Heroku
 * **Web Framework:** [Flask / Streamlit - Choose one]
 * **Environment Management:** Gunicorn, Pip
 
-## 📊 Model Performance
+## Model Performance
 The model was trained on the [UCI SMS Spam Collection Dataset] and optimized using GridSearch Cross-Validation.
 * **Algorithm:** Support Vector Classifier (SVC)
 * **Vectorization:** TF-IDF (Term Frequency-Inverse Document Frequency)
